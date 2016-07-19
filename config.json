@@ -1,0 +1,37 @@
+{
+	"movie": 
+	{
+	"DB_APIKEY": "",
+	"TW_CONSUMER_KEY": "",
+	"TW_CONSUMER_SECRET": "",
+	"TW_ACCESS_TOKEN": "",
+	"TW_ACCESS_SECRET": "",
+	"TW_ENABLED": true,
+	"MIN_VOTE_COUNT": 10,
+	"INCLUDE_ADULT": true,
+	"YEAR_BOUND": 1930
+	},
+	"tv": 
+	{
+	"DB_APIKEY": "",
+	"TW_CONSUMER_KEY": "",
+	"TW_CONSUMER_SECRET": "",
+	"TW_ACCESS_TOKEN": "",
+	"TW_ACCESS_SECRET": "",
+	"TW_ENABLED": true,
+	"MIN_VOTE_COUNT": 2,
+	"YEAR_BOUND": 1930
+	},
+
+	"game":
+	{
+	"DB_APIKEY": "",
+	"TW_CONSUMER_KEY": "",
+	"TW_CONSUMER_SECRET": "",
+	"TW_ACCESS_TOKEN": "",
+	"TW_ACCESS_SECRET": "",
+	"TW_ENABLED": true,
+	"MIN_VOTE_COUNT": 1,
+	"YEAR_BOUND": 1970
+	}
+}
