@@ -15,7 +15,7 @@ def process_data(data,age,api,cfg):
 			twt_txt=str(age)+'th: '+i['name'][:114]+'\n'+i['site_detail_url']
 				
 			try:
-				if cfg['TW_ENABLED']==True && cfg['DRY_RUN']==False:
+				if cfg['TW_ENABLED']==True and cfg['DRY_RUN']==False:
 					api.update_status(twt_txt)
 				print(twt_txt)
 				print(' - review count: '+str(i['number_of_user_reviews']))
